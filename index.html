@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	<!---custom css link--->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<!----header design---->
+	<header>
+		<a href="#" class="logo">Re<span>vi</span>sion.</a>
+
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Work</a></li>
+			<li><a href="#archive">Archive</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+		</ul>
+
+		<div class="bx bx-menu" id="menu-icon">
+
+		</div>
+	</header>
+
+	<!----home section design---->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+			  <span class="one">Poly</span>
+			  <span class="two">Lab</span>
+		    </div>
+		<h1>Cite</h1>
+		<h3>Revision<span> Archive.</span></h3>
+		<p>Welcome to Revision Archive, your comprehensive resource for accessing <br>
+		   and preserving a wide variety of academic and professional materials.<br>
+		   Our mission is to empower students, educators, and professionals<br>
+		   by providing a platform where diverse file types—including <br>
+		   PDFs, documents, text files, MP3s, MP4s, HTML, ZIP files, images,<br>
+		   and spreadsheets—are easily accessible and securely archived.</p>
+		<div class="button">
+			<a href="#" class="btn">See</a>
+			<a href="#" class="btn2"><span><i class='bx bx-play'></i></span>Work</a>
+		</div>
+
+	    </div>
+	</section>
+
+	<!----about section design---->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/abt.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Work</span></h2>
+			<h4>Creative Game Design!</h4>
+			<p>Welcome to Revision Archives, your premier source for a vast collection of meticulously curated study materials. Our mission is to empower learners by offering an extensive archive of revision notes, practice tests, and insightful guides designed to any different file to simplify and enhance your academic journey.</p>
+			<a href="#" class="btn">More About</a>
+		</div>
+	</section>
+
+	<section class="archive" id="archive">
+		<div class="container">
+            <h1>Revision Archive</h1>
+            <div class="upload-section">
+                <label for="file-upload" class="custom-file-upload">
+                     <input id="file-upload" type="file" multiple onchange="handleFileUpload(event)"/>
+                     Upload Files
+                </label>
+            </div>
+            <div class="file-list" id="file-list">
+            <!-- Uploaded file list will be inserted here dynamically -->
+            </div>
+            <div class="download-section" id="download-section">
+            <!-- Download links will be inserted here dynamically -->
+            </div>
+        </div>
+	</section>
+
+	<!---service section design--->
+	<section class="services" id="services">
+		<div class="main-text">
+			<p>I am well-versed in</p>
+			<h2><span>My</span> Services</h2>
+		</div>
+
+		<div class="services-content">
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-mobile-alt' ></i>
+				</div>
+				<h3>Revision Planning</h3>
+				<p>To provide tailored guidance in structuring effective study plans. Effective revision planning ensures efficient use of study time and maximizes retention of key concepts.</p>
+				<a href="#" class="read">Read More</a>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-code-alt' ></i>
+				</div>
+				<h3>Resource Development</h3>
+				<p>To offer comprehensive, high-quality study materials aligned with curriculum standards. Access to well-curated resources enhances understanding and aids in comprehensive revision.</p>
+				<a href="#" class="read">Read More</a>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-edit-alt' ></i>
+				</div>
+				<h3>Tutoring sessions</h3>
+				<p>To provide personalized academic support and guidance. Personalized tutoring addresses individual learning gaps and enhances comprehension.</p>
+				<a href="#" class="read">Read More</a>
+			</div>
+
+		</div>
+	</section>
+
+	<!---portfolio section design--->
+	<section class="portfolio" id="portfolio">
+		<div class="main-text">
+			<p>Portfolio</p>
+			<h2><span>Our</span> Appreciations</h2>
+		</div>
+
+		<div class="portfolio-content">
+			<div class="row">
+				<img src="img/jacob.jpg">
+				<div class="layer">
+					<h5>Jacob Palencia</h5>
+					<p>An aspiring game designer living in Tuktukan, mainly focused on story-driven works such as the Last of Us and Detroit Become Human.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/jm.jpg">
+				<div class="layer">
+					<h5>Jm Candelario</h5>
+					<p>I am a passionate game developer with a strong focus on game programming.<br>
+		With expertise in laguager line C# and Unity, I have succesfully implemented gameplay mechanics, 
+		to create immersive and engaging gaming experience.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/gerald.jpg">
+				<div class="layer">
+					<h5>Gerald Dar Bea</h5>
+					<p>a web developer with a passion for creating intuitive and responsive websites that provide an exceptional user experience.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!---portfolio section design--->
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contact <span>Me!</span></h2>
+			<h4>If You Have Any Question.</h4>
+			<p>Im a Developer if you have anything to say you can call the hotline or email our office.</p>
+			<div class="list">
+				<li><a href="#">09610384230</a></li>
+				<li><a href="#">PolyLab@gmail.com</a></li>
+				<li><a href="#">Like & Share</a></li>
+			</div>
+
+			<div class="contact-icons">
+				<a href="#"><i class='bx bxl-facebook'></i></a>
+				<a href="#"><i class='bx bxl-twitter' ></i></a>
+				<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+				<a href="#"><i class='bx bxl-youtube' ></i></a>
+			</div>
+		</div>
+
+		<div class="contact-form">
+			<form action="">
+				<input type="name" placeholder="Your Name" required>
+				<input type="email" placeholder="Your Email Address" required>
+				<input type="" placeholder="Your Mobile Number" required>
+				<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+				<input type="submit" value="Send Message" class="submit" required>
+			</form>
+		</div>
+	</section>
+
+	<!---end section design--->
+	<section class="end">
+		<div class="last-text">
+			<p>Copyright © 2024 by PolyLab All Rights Reserved.</p>
+		</div>
+
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+		</div>
+	</section>
+
+
+
+	<!---custom js link--->
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
